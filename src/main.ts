@@ -5,6 +5,6 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
   // This reads the PORT from your .env file, or defaults to 3000 if not found
-  await app.listen(process.env.PORT || 3002);
+  await app.listen(process.env.PORT || 3001);
 }
 bootstrap();
